@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>24FB4AF1-B795-4A64-9A70-FF1BF2988773</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Top iTunes Charts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F6B29EB0341569627F351709C14F671390A0D79</key>
+		<string>https://github.com/hasanalbukhari/Top-iTunes-Charts.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Top iTunes Charts.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F6B29EB0341569627F351709C14F671390A0D79</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hasanalbukhari/Top-iTunes-Charts.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0F6B29EB0341569627F351709C14F671390A0D79</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F6B29EB0341569627F351709C14F671390A0D79</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Top%20iTunes%20Charts</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181B109C1A4847E5006D30E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B109B1A4847E5006D30E5 /* main.m */; };
+		181B109F1A4847E5006D30E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B109E1A4847E5006D30E5 /* AppDelegate.m */; };
+		181B10A21A4847E5006D30E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B10A11A4847E5006D30E5 /* ViewController.m */; };
+		181B10A51A4847E5006D30E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B10A31A4847E5006D30E5 /* Main.storyboard */; };
+		181B10A71A4847E5006D30E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B10A61A4847E5006D30E5 /* Images.xcassets */; };
+		181B10B61A4847E5006D30E5 /* Top_iTunes_ChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B10B51A4847E5006D30E5 /* Top_iTunes_ChartsTests.m */; };
+		181B10C01A48538D006D30E5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 181B10BF1A48538D006D30E5 /* Podfile */; };
+		1906B85B69F9924E63C9B5AB /* libPods-Top iTunes Charts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B317E8D56E799FF3D4B784F /* libPods-Top iTunes Charts.a */; };
+		9F1408481A48A1450081ADCE /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1408471A48A1450081ADCE /* Song.m */; };
+		9F14084B1A48A3AF0081ADCE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F14084A1A48A3AF0081ADCE /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9F14084D1A48A7FF0081ADCE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F14084C1A48A7FF0081ADCE /* libxml2.dylib */; };
+		9F1408531A48B7030081ADCE /* SongsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F1408511A48B7030081ADCE /* SongsModel.xcdatamodeld */; };
+		9F1408551A48BAFF0081ADCE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1408541A48BAFF0081ADCE /* CoreData.framework */; };
+		9F9E453D1A4A2A89008FDA79 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E453C1A4A2A89008FDA79 /* WebViewController.m */; };
+		9FCB25261A4CE39800FE8F16 /* Single.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB25251A4CE39800FE8F16 /* Single.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181B10B01A4847E5006D30E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181B108E1A4847E5006D30E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181B10951A4847E5006D30E5;
+			remoteInfo = "Top iTunes Charts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181B10961A4847E5006D30E5 /* Top iTunes Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top iTunes Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B109A1A4847E5006D30E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B109B1A4847E5006D30E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181B109D1A4847E5006D30E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181B109E1A4847E5006D30E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181B10A01A4847E5006D30E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181B10A11A4847E5006D30E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181B10A41A4847E5006D30E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181B10A61A4847E5006D30E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		181B10AF1A4847E5006D30E5 /* Top iTunes ChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top iTunes ChartsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B10B41A4847E5006D30E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B10B51A4847E5006D30E5 /* Top_iTunes_ChartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Top_iTunes_ChartsTests.m; sourceTree = "<group>"; };
+		181B10BF1A48538D006D30E5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B317E8D56E799FF3D4B784F /* libPods-Top iTunes Charts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Top iTunes Charts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FE70557D10CF575174C15 /* Pods-Top iTunes Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top iTunes Charts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Top iTunes Charts/Pods-Top iTunes Charts.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1408461A48A1450081ADCE /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		9F1408471A48A1450081ADCE /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		9F1408491A48A3AF0081ADCE /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		9F14084A1A48A3AF0081ADCE /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		9F14084C1A48A7FF0081ADCE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		9F1408521A48B7030081ADCE /* SongsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SongsModel.xcdatamodel; sourceTree = "<group>"; };
+		9F1408541A48BAFF0081ADCE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9F9E453B1A4A2A89008FDA79 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9F9E453C1A4A2A89008FDA79 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9FCB25201A4C73D600FE8F16 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9FCB25241A4CE39800FE8F16 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		9FCB25251A4CE39800FE8F16 /* Single.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Single.m; sourceTree = "<group>"; };
+		9FCB25271A4DADFE00FE8F16 /* Top iTunes Charts-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Top iTunes Charts-Prefix.pch"; sourceTree = "<group>"; };
+		F6AD826D8CC7666F52AEBCDD /* Pods-Top iTunes Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top iTunes Charts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Top iTunes Charts/Pods-Top iTunes Charts.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181B10931A4847E5006D30E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1408551A48BAFF0081ADCE /* CoreData.framework in Frameworks */,
+				9F14084D1A48A7FF0081ADCE /* libxml2.dylib in Frameworks */,
+				1906B85B69F9924E63C9B5AB /* libPods-Top iTunes Charts.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B10AC1A4847E5006D30E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181B108D1A4847E5006D30E5 = {
+			isa = PBXGroup;
+			children = (
+				9FCB25201A4C73D600FE8F16 /* Default.png */,
+				181B10981A4847E5006D30E5 /* Top iTunes Charts */,
+				181B10B21A4847E5006D30E5 /* Top iTunes ChartsTests */,
+				181B10971A4847E5006D30E5 /* Products */,
+				22899D2DEBB641368B25860A /* Pods */,
+				8C83745E7BC501F9C9D5E277 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181B10971A4847E5006D30E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181B10961A4847E5006D30E5 /* Top iTunes Charts.app */,
+				181B10AF1A4847E5006D30E5 /* Top iTunes ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181B10981A4847E5006D30E5 /* Top iTunes Charts */ = {
+			isa = PBXGroup;
+			children = (
+				181B109D1A4847E5006D30E5 /* AppDelegate.h */,
+				181B109E1A4847E5006D30E5 /* AppDelegate.m */,
+				181B10A01A4847E5006D30E5 /* ViewController.h */,
+				181B10A11A4847E5006D30E5 /* ViewController.m */,
+				9F9E453B1A4A2A89008FDA79 /* WebViewController.h */,
+				9F9E453C1A4A2A89008FDA79 /* WebViewController.m */,
+				9F1408461A48A1450081ADCE /* Song.h */,
+				9F1408471A48A1450081ADCE /* Song.m */,
+				9FCB25241A4CE39800FE8F16 /* Single.h */,
+				9FCB25251A4CE39800FE8F16 /* Single.m */,
+				9F1408491A48A3AF0081ADCE /* GDataXMLNode.h */,
+				9F14084A1A48A3AF0081ADCE /* GDataXMLNode.m */,
+				9F1408511A48B7030081ADCE /* SongsModel.xcdatamodeld */,
+				181B10A31A4847E5006D30E5 /* Main.storyboard */,
+				181B10A61A4847E5006D30E5 /* Images.xcassets */,
+				181B10991A4847E5006D30E5 /* Supporting Files */,
+			);
+			path = "Top iTunes Charts";
+			sourceTree = "<group>";
+		};
+		181B10991A4847E5006D30E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181B10BF1A48538D006D30E5 /* Podfile */,
+				181B109A1A4847E5006D30E5 /* Info.plist */,
+				181B109B1A4847E5006D30E5 /* main.m */,
+				9FCB25271A4DADFE00FE8F16 /* Top iTunes Charts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181B10B21A4847E5006D30E5 /* Top iTunes ChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				181B10B51A4847E5006D30E5 /* Top_iTunes_ChartsTests.m */,
+				181B10B31A4847E5006D30E5 /* Supporting Files */,
+			);
+			path = "Top iTunes ChartsTests";
+			sourceTree = "<group>";
+		};
+		181B10B31A4847E5006D30E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181B10B41A4847E5006D30E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22899D2DEBB641368B25860A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				894FE70557D10CF575174C15 /* Pods-Top iTunes Charts.debug.xcconfig */,
+				F6AD826D8CC7666F52AEBCDD /* Pods-Top iTunes Charts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C83745E7BC501F9C9D5E277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F1408541A48BAFF0081ADCE /* CoreData.framework */,
+				9F14084C1A48A7FF0081ADCE /* libxml2.dylib */,
+				1B317E8D56E799FF3D4B784F /* libPods-Top iTunes Charts.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181B10951A4847E5006D30E5 /* Top iTunes Charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B10B91A4847E5006D30E5 /* Build configuration list for PBXNativeTarget "Top iTunes Charts" */;
+			buildPhases = (
+				FCA18F3E8C21ADCAEB0FC856 /* Check Pods Manifest.lock */,
+				181B10921A4847E5006D30E5 /* Sources */,
+				181B10931A4847E5006D30E5 /* Frameworks */,
+				181B10941A4847E5006D30E5 /* Resources */,
+				05E45E54650569A3BF51AC4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Top iTunes Charts";
+			productName = "Top iTunes Charts";
+			productReference = 181B10961A4847E5006D30E5 /* Top iTunes Charts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181B10AE1A4847E5006D30E5 /* Top iTunes ChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B10BC1A4847E5006D30E5 /* Build configuration list for PBXNativeTarget "Top iTunes ChartsTests" */;
+			buildPhases = (
+				181B10AB1A4847E5006D30E5 /* Sources */,
+				181B10AC1A4847E5006D30E5 /* Frameworks */,
+				181B10AD1A4847E5006D30E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181B10B11A4847E5006D30E5 /* PBXTargetDependency */,
+			);
+			name = "Top iTunes ChartsTests";
+			productName = "Top iTunes ChartsTests";
+			productReference = 181B10AF1A4847E5006D30E5 /* Top iTunes ChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181B108E1A4847E5006D30E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Hasan;
+				TargetAttributes = {
+					181B10951A4847E5006D30E5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					181B10AE1A4847E5006D30E5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 181B10951A4847E5006D30E5;
+					};
+				};
+			};
+			buildConfigurationList = 181B10911A4847E5006D30E5 /* Build configuration list for PBXProject "Top iTunes Charts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181B108D1A4847E5006D30E5;
+			productRefGroup = 181B10971A4847E5006D30E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181B10951A4847E5006D30E5 /* Top iTunes Charts */,
+				181B10AE1A4847E5006D30E5 /* Top iTunes ChartsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181B10941A4847E5006D30E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B10A51A4847E5006D30E5 /* Main.storyboard in Resources */,
+				181B10C01A48538D006D30E5 /* Podfile in Resources */,
+				181B10A71A4847E5006D30E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B10AD1A4847E5006D30E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E45E54650569A3BF51AC4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top iTunes Charts/Pods-Top iTunes Charts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA18F3E8C21ADCAEB0FC856 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181B10921A4847E5006D30E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1408481A48A1450081ADCE /* Song.m in Sources */,
+				9F9E453D1A4A2A89008FDA79 /* WebViewController.m in Sources */,
+				181B10A21A4847E5006D30E5 /* ViewController.m in Sources */,
+				9F14084B1A48A3AF0081ADCE /* GDataXMLNode.m in Sources */,
+				181B109F1A4847E5006D30E5 /* AppDelegate.m in Sources */,
+				9FCB25261A4CE39800FE8F16 /* Single.m in Sources */,
+				9F1408531A48B7030081ADCE /* SongsModel.xcdatamodeld in Sources */,
+				181B109C1A4847E5006D30E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B10AB1A4847E5006D30E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B10B61A4847E5006D30E5 /* Top_iTunes_ChartsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181B10B11A4847E5006D30E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181B10951A4847E5006D30E5 /* Top iTunes Charts */;
+			targetProxy = 181B10B01A4847E5006D30E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181B10A31A4847E5006D30E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B10A41A4847E5006D30E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181B10B71A4847E5006D30E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181B10B81A4847E5006D30E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181B10BA1A4847E5006D30E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894FE70557D10CF575174C15 /* Pods-Top iTunes Charts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Top iTunes Charts-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworkActivityLogger\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
+					"\"${PODS_ROOT}/Headers/Public/MagicalRecord\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Top iTunes Charts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-Top iTunes Charts-AFNetworkActivityLogger\"",
+					"-l\"Pods-Top iTunes Charts-AFNetworking\"",
+					"-l\"Pods-Top iTunes Charts-CocoaLumberjack\"",
+					"-l\"Pods-Top iTunes Charts-MagicalRecord\"",
+					"-l\"Pods-Top iTunes Charts-SDWebImage\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+			};
+			name = Debug;
+		};
+		181B10BB1A4847E5006D30E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AD826D8CC7666F52AEBCDD /* Pods-Top iTunes Charts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Top iTunes Charts-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworkActivityLogger\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
+					"\"${PODS_ROOT}/Headers/Public/MagicalRecord\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Top iTunes Charts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-Top iTunes Charts-AFNetworkActivityLogger\"",
+					"-l\"Pods-Top iTunes Charts-AFNetworking\"",
+					"-l\"Pods-Top iTunes Charts-CocoaLumberjack\"",
+					"-l\"Pods-Top iTunes Charts-MagicalRecord\"",
+					"-l\"Pods-Top iTunes Charts-SDWebImage\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+			};
+			name = Release;
+		};
+		181B10BD1A4847E5006D30E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Top iTunes ChartsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top iTunes Charts.app/Top iTunes Charts";
+			};
+			name = Debug;
+		};
+		181B10BE1A4847E5006D30E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Top iTunes ChartsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top iTunes Charts.app/Top iTunes Charts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181B10911A4847E5006D30E5 /* Build configuration list for PBXProject "Top iTunes Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B10B71A4847E5006D30E5 /* Debug */,
+				181B10B81A4847E5006D30E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B10B91A4847E5006D30E5 /* Build configuration list for PBXNativeTarget "Top iTunes Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B10BA1A4847E5006D30E5 /* Debug */,
+				181B10BB1A4847E5006D30E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B10BC1A4847E5006D30E5 /* Build configuration list for PBXNativeTarget "Top iTunes ChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B10BD1A4847E5006D30E5 /* Debug */,
+				181B10BE1A4847E5006D30E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F1408511A48B7030081ADCE /* SongsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F1408521A48B7030081ADCE /* SongsModel.xcdatamodel */,
+			);
+			currentVersion = 9F1408521A48B7030081ADCE /* SongsModel.xcdatamodel */;
+			path = SongsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 181B108E1A4847E5006D30E5 /* Project object */;
+}

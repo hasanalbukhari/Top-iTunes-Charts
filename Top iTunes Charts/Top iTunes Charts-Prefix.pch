@@ -1,0 +1,26 @@
+//
+//  Top iTunes Charts-Prefix.pch
+//  Top iTunes Charts
+//
+//  Created by Hasan on 12/26/14.
+//  Copyright (c) 2014 Hasan. All rights reserved.
+//
+
+#ifndef Top_iTunes_Charts_Top_iTunes_Charts_Prefix_pch
+#define Top_iTunes_Charts_Top_iTunes_Charts_Prefix_pch
+#endif
+
+#import <Availability.h>
+
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
+
+#define MR_SHORTHAND
+#define SERVICE_URL @"http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topsongs/limit=10/xml"
