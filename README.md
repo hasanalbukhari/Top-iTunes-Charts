@@ -9,4 +9,4 @@ Tapping the song opens the WebViewController and loads the song web page in a UI
 Installation:
 =============
 
-Project dependencies are configured in the Podfile and not included in the repository.
+Use CocoaPods to install the dependencies. Podfile included in the project.
