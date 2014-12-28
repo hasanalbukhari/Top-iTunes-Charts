@@ -9,6 +9,3 @@ target 'Top iTunes Charts' do
     pod 'MagicalRecord'
 end
 
-target 'Top iTunes ChartsTests' do
-
-end
